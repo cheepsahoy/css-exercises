@@ -1,0 +1,7 @@
+/*Need to do: DIV: a red background, white text, a font size of 32px, center aligned, and bold*/
+
+div {background-color: red; 
+    color: white; 
+    font-size: 32; 
+    text-align: center;
+     font-weight: 700;} 
