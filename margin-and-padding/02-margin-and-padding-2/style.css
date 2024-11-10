@@ -4,24 +4,47 @@ body {
 }
 
 .card {
+  display: block;
   width: 400px;
-  background: #fff;
-  margin: 16px auto;
+  background: white;
+  padding: 8px;
 }
 
 .title {
-  background: #e3f4ff;
+  margin: 8px;
+  display: block;
+  background: lightblue;
+  font-size: 16px;
+  padding: 8px;
 }
 
 .content {
-  background: #e3f4ff;
+  padding: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin: 8px;
+  display: block;
+  background: lightblue;
 }
 
 .button-container {
-  background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
+  margin: 8px;
+  display: block;
+  background: lightblue;
 }
 
 button {
+  display: block;
+  margin: auto;
+  padding: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
   background: white;
   border: 1px solid #eee;
+}
+
+button:hover {
+  background-color: red
 }
